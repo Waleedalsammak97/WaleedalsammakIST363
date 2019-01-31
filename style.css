@@ -36,13 +36,17 @@ margin:0px;
 
 a{
     text-decoration:none;
+    color:black;
+    font-size:25px;
 }
+
+
 
 .content{
 
 width:70%;
 float:left;
-height:500px;
+min-height:500px;
 background-color: darkgrey;
 }
 
@@ -51,7 +55,47 @@ background-color: darkgrey;
     
 width:30%;
 background-color: #efefef;
-height:500px;
+min-height:500px;
 float:right;
 
 }
+
+
+.blog1{
+
+border: solid grey 2px;
+margin: 5px;
+background-color: #fff;
+padding:10px;
+border-radius: 5px;
+min-height:250px;
+
+}
+
+img{
+    margin-right:25px
+   
+
+}
+
+
+.blog2{
+    
+    border: solid grey 2px;
+    margin: 5px;
+    background-color: #fff;
+    padding:10px;
+    border-radius: 5px;
+    
+    
+}.blog3{
+    
+    border: solid grey 2px;
+    margin: 5px;
+    background-color: #fff;
+    padding:10px;
+    border-radius: 5px;
+    
+}
+
+
