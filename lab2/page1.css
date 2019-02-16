@@ -1,0 +1,110 @@
+.container{
+
+display:flex;
+
+}
+
+.item{
+
+height:200px;
+margin:10px;
+font-size:36px;
+line-height:200px;
+    text-align:center;}
+
+.blue-item{
+    background-color: blue;
+    width:50%;
+}
+
+
+.red-container{
+
+
+}
+
+.red-item{
+
+background-color:red;
+width:25%;
+}
+
+.red-item.wider{
+    width:50%;
+
+}
+.purple-item{
+
+background-color:mediumorchid;
+flex-grow:1;
+flex-basis:0px;
+
+}
+
+.purple-item.wider{
+    flex-grow:2;
+
+}
+
+.grey-container{
+
+ justify-content: space-around;
+}
+
+.grey-item{
+    
+    background-color:#ebebeb;
+    width:25%;
+   
+}
+.green-container{
+    
+    justify-content: space-between;
+}
+
+.green-item{
+    
+    background-color:green;
+    width:33%;
+    
+}
+
+.yellow-container{
+    
+    justify-content: center;
+}
+
+.yellow-item{
+    
+    background-color:yellow;
+    width:33%;
+    
+}
+
+.teal-container{
+    
+    justify-content: flex-end;
+}
+
+.teal-item{
+    
+    background-color:teal;
+    width:15%;
+}
+
+.beige-container{
+    
+    justify-content: space-around;
+}
+
+.beige-item{
+    
+    background-color:beige;
+    width:25%;
+    
+}
+
+.item.beige-item.white{
+    background-color:#fff;
+
+}

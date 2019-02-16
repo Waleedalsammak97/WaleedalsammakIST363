@@ -1,0 +1,50 @@
+
+html, body{
+
+margin:0px;
+padding:0px;
+height:100%;
+
+
+}
+body{
+
+display:flex;
+flex-direction: column;
+}
+
+.main{
+    flex-grow:1;
+    background-color:white;
+    flex-basis:0px;
+  display:flex;
+}
+.header{
+
+height:100px;
+background-color:lightcoral;
+
+
+}
+
+.footer{
+
+height:200px;
+background-color:black;
+}
+
+
+.item{
+  
+    margin:10px;
+   
+    border: solid black 1px;
+    flex-grow: 1;
+  background-color:#d8d8d8;
+}
+.item.wider{
+
+
+    flex-grow: 3;
+
+}
